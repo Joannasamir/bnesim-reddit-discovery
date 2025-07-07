@@ -1,0 +1,8 @@
+praw
+openai
+langchain
+langchain-openai
+python-dotenv
+textblob
+streamlit
+
