@@ -13,11 +13,16 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-def score_post(post, intent):
+def score_post(post, intent, sentiment):
     base = post["upvotes"] + 2 * post["comments"]
     if intent.lower() == "recommendation request":
-        base += 10  # bonus weight
+        base += 10
+    if sentiment.lower() == "positive":
+        base += 3
+    elif sentiment.lower() == "negative":
+        base -= 5
     return base
+
 
 # Setup file timestamp
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -61,7 +66,7 @@ for i, p in enumerate(posts[:5]):  # Replace 5 with full length if needed
 
     # 3. Try to score the post
     try:
-        score = score_post(p, classification["intent"])
+        score = score_post(p, classification["intent"], classification["sentiment"])
     except Exception as e:
         logging.warning(f"Post skipped due to scoring/parsing issue: {e}")
         continue
