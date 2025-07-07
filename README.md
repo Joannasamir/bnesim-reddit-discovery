@@ -1,45 +1,38 @@
-# BNESIM Reddit Opportunity Discovery Tool
+# 🔎 BNESIM Reddit Opportunity Discovery Tool
 
-This project identifies marketing opportunities on Reddit for BNESIM, a global eSIM provider. It searches for recent Reddit posts related to travel eSIMs, connectivity issues, roaming complaints, or competitors (like Airalo and Ubigi). Each relevant post is analyzed using AI to determine its intent and sentiment, then a natural, respectful response is generated—ready for review or direct engagement by the marketing team.
-
----
-
-Features
-
-- ✅ **Reddit Discovery Engine**  
-  Finds recent posts from key travel-related subreddits using relevant keywords (e.g., “eSIM”, “BNESIM”, “roaming charges”).
-
-- ✅ **AI-Powered Content Analysis**  
-  Classifies each post’s intent (e.g., question, complaint, recommendation request) and sentiment (positive, negative, neutral).
-
-- ✅ **AI Response Generation**  
-  Generates concise, empathetic, and helpful replies using GPT, tailored for Reddit tone and etiquette.
-
-- ✅ **Opportunity Scoring**  
-  Prioritizes posts using a relevance score based on engagement (upvotes/comments), intent, and sentiment.
-
-- ✅ **Logging & Error Handling**  
-  Logs processing status, failures, and debug information to `run_log.txt`.
-
-- ✅ **Data Export**  
-  Saves results to both `.json` and `.csv` files for team review.
+This AI-powered tool automatically discovers relevant Reddit posts about travel eSIMs, roaming, and BNESIM's competitors. It classifies each post’s intent and sentiment, then generates community-friendly replies — helping BNESIM’s marketing team identify real opportunities for engagement.
 
 ---
 
-## 📦 Output Files
+## 📌 Project Overview
 
-- `results_<timestamp>.json` — full post metadata + AI analysis
-- `results_<timestamp>.csv` — human-readable format for marketing team
-- `run_log.txt` — log of each run (successes, skips, errors)
+Reddit is a goldmine for organic travel-related questions and complaints. This tool monitors subreddits for posts about:
+- Travel eSIM and connectivity issues
+- Competitor mentions (Airalo, Ubigi, etc.)
+- International roaming and SIM recommendations
+- BNESIM brand mentions
+
+Each post is analyzed and scored to prioritize high-value engagement opportunities.
 
 ---
 
-## 🧰 Tech Stack
+## 🧠 Features
 
-- Python
-- [PRAW](https://praw.readthedocs.io/) – Reddit API Wrapper
-- [LangChain](https://www.langchain.com/) – Prompt chaining and LLM integration
-- [OpenAI](https://platform.openai.com/) – GPT-3.5-turbo for classification & replies
-- dotenv – Secure API key loading
-- Streamlit (optional) – For basic UI (optional)
+- 🔍 Reddit post discovery via Pushshift API
+- 🧵 Extracts post title, content, URL, subreddit, and engagement metrics
+- 🧠 Classifies each post (e.g., complaint, praise, question) using LangChain + OpenAI
+- 🎭 Performs sentiment analysis (positive/neutral/negative)
+- 💬 Generates smart, helpful replies (Reddit tone, soft brand mention)
+- 📈 Scores post relevance/opportunity
+- 📄 Exports results to CSV and JSON
+- 🌐 Optional Streamlit web app for reviewing results
 
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Joannasamir/bnesim-reddit-discovery.git
+cd bnesim-reddit-discovery
