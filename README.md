@@ -4,7 +4,8 @@
 This AI-powered tool discovers recent Reddit posts about travel eSIMs, international roaming, connectivity issues, and BNESIM competitors. It classifies post intent and sentiment, scores engagement potential, and generates friendly, on-brand reply suggestions for BNESIM’s marketing team.
 
 
-## AT THE END, YOU WILL FIND A DRIVE LINK WITH A VIDEO OF THE DEMO, JUST IN CASE YOU DO NOT WANT TO GO THROUGH THE HASSLE OF SETTING UP :) 
+## HERE IS A GOOGLE DRIVE LINK WITH A VIDEO OF THE DEMO, JUST IN CASE YOU DO NOT WANT TO GO THROUGH THE HASSLE OF SETTING UP :) 
+https://drive.google.com/drive/folders/1pisHNthuXTEfvG0nyHlEujHCF4nzIMZI?usp=sharing
 ---
 
 ## 🚀 Features
