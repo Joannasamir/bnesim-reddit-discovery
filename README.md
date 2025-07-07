@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 
+=======
+Got it — here is the **complete and final `README.md` text**, fully copy-paste ready for your project:
+
+---
+
+```markdown
+>>>>>>> 6212fe8 (WIP: prepare for rebase before pull)
 # 🔎 BNESIM Reddit Opportunity Discovery Tool
 
 This AI-powered tool discovers recent Reddit posts about travel eSIMs, international roaming, connectivity issues, and BNESIM competitors. It classifies post intent and sentiment, scores engagement potential, and generates friendly, on-brand reply suggestions for BNESIM’s marketing team.
@@ -165,6 +173,9 @@ Each record includes:
 Junior AI Automation Engineer Candidate
 [GitHub](https://github.com/Joannasamir) · [LinkedIn](https://www.linkedin.com/in/joannasamir)
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6212fe8 (WIP: prepare for rebase before pull)
