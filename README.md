@@ -162,5 +162,5 @@ Each record includes:
 ## 👤 Author
 
 **Joanna Samir**
-Junior AI Automation Engineer Candidate
-[GitHub](https://github.com/Joannasamir) · [LinkedIn](https://www.linkedin.com/in/joannasamir)
+
+[GitHub](https://github.com/Joannasamir) · [LinkedIn](https://linkedin.com/in/joanna-tadros-ba7a0b24a)
